@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/workoutListFragment">
+    <fragment
+        android:id="@+id/workoutListFragment"
+        android:name="io.github.vlodo_o.fitnessapp.ui.workout_list.WorkoutListFragment"
+        android:label="@string/workout_list"
+        tools:layout="@layout/fragment_workout_list" >
+        <action
+            android:id="@+id/action_workoutListFragment_to_workoutDetailFragment"
+            app:destination="@id/workoutDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/workoutDetailFragment"
+        android:name="io.github.vlodo_o.fitnessapp.ui.workout_detail.WorkoutDetailFragment"
+        android:label=""
+        tools:layout="@layout/fragment_workout_detail">
+        <argument android:name="workout"
+            app:argType="io.github.vlodo_o.fitnessapp.domain.models.Workout" />
+    </fragment>
+</navigation>

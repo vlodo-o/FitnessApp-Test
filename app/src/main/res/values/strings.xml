@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fitness App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="filter_prompt">Выберите тип тренировки</string>
+    <string name="minute_duration_string">%1$s мин.</string>
+    <string name="workout_search_hint">Поиск тренировки</string>
+    <string name="empty_result_message">Ничего не найдено</string>
+    <string name="workouts_loading_error_message">Ошибка загрузки тренировок</string>
+    <string name="refresh">Обновить</string>
+    <string name="video_loading_error_message">Ошибка загрузки видео</string>
+    <string name="quality">Качество</string>
+    <string name="workout_list">Список тренировок</string>
+    <plurals name="minute_duration">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <string-array name="workout_type_names">
+        <item>Все тренировки</item>
+        <item>Тренировка</item>
+        <item>Эфир</item>
+        <item>Комплекс</item>
+    </string-array>
+</resources>

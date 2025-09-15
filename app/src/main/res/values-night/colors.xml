@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#9A84F0</color>
+    <color name="colorPrimaryVariant">#7B68EE</color>
+    <color name="colorSecondary">#FFB38A</color>
+
+    <color name="colorBackground">#121212</color>
+    <color name="colorSurface">#1E1E1E</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnBackground">#EDEDED</color>
+    <color name="colorOnSurface">#EDEDED</color>
+</resources>
